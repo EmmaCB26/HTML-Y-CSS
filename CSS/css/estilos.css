@@ -1,0 +1,53 @@
+/* Base del ejercicio 2 + variables, tipografía y colores (ejercicio 3) */
+
+:root {
+  --turqueza: #81cac3;
+  --azul: #086781;
+  --grande: 3rem;
+  --mediano: 2rem;
+}
+
+div,
+header,
+nav,
+main,
+footer,
+section,
+article,
+aside,
+ul {
+  padding: 0 .5rem;
+  border: 1px solid gray;
+}
+
+body {
+  font-family: Arial;
+}
+
+header {
+  color: var(--azul);
+  background: var(--turqueza);
+  font-size: var(--grande);
+  font-weight: bold;
+  padding: 2rem 3rem;
+}
+
+h2 {
+  font-size: var(--mediano);
+  color: var(--azul);
+}
+
+section {
+  background-color: #ffffbb;
+  padding-bottom: .5rem;
+}
+
+article {
+  background-color: #f9d67e;
+}
+
+aside {
+  background-color: #c6fdfe;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}

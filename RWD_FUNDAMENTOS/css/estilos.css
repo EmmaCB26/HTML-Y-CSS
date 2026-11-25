@@ -1,0 +1,101 @@
+/* Ejercicio 4 — se eliminó la regla global que agregaba padding y border */
+
+:root {
+  --turqueza: #81cac3;
+  --azul: #086781;
+  --grande: 3rem;
+  --mediano: 2rem;
+}
+
+body {
+  font-family: Arial;
+}
+
+header {
+  color: var(--azul);
+  background: var(--turqueza);
+  font-size: var(--grande);
+  font-weight: bold;
+  padding: 2rem 3rem;
+}
+
+h2 {
+  font-size: var(--mediano);
+  color: var(--azul);
+}
+
+/* ---------- Menú ---------- */
+nav {
+  padding: .5rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+nav a {
+  display: block;
+  padding: .4rem .8rem;
+  background-color: #4f2a2a;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: var(--azul);
+  color: #ffffff;
+}
+
+/* ---------- Contenedor Flexbox: section + aside ---------- */
+.contenedor {
+  display: flex;
+  flex-direction: column;
+}
+
+section,
+aside {
+  box-sizing: border-box;
+  padding: .5rem;
+  width: 100%;
+}
+
+section {
+  background-color: #ffffbb;
+}
+
+article {
+  background-color: #f9d67e;
+  padding: .5rem;
+}
+
+aside {
+  background-color: #c6fdfe;
+  margin-top: .5rem;
+}
+
+footer {
+  padding: .5rem 0;
+}
+
+/* ---------- Después de 798px: 66.66% y 33.33% ---------- */
+@media (min-width: 798px) {
+  .contenedor {
+    flex-direction: row;
+  }
+
+  section {
+    width: 66.66%;
+  }
+
+  aside {
+    width: 33.33%;
+    margin-top: 0;
+  }
+}
