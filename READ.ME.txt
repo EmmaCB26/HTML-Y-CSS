@@ -1,0 +1,21 @@
+**HTML y CSS**
+
+Colección de ejercicios prácticos y proyecto integrador de desarrollo frontend centrados en marcado semántico, hojas de estilo en cascada y diseño adaptable a distintos dispositivos.
+
+**Autor:** Antonio Yahir Ruiz Rocha
+
+**Organización del repositorio**
+
+* **HTML:** Plantilla base de HTML5 con elementos semánticos, menús de navegación, formularios y listas de definición.
+* **CSS:** Uso de hojas de estilo externas, propiedades personalizadas de CSS, selección tipográfica y gama cromática en tonos marrones.
+* **RWD FUNDAMENTOS:** Layouts adaptables diseñados con estrategia *Mobile First*, apoyados en Flexbox y *media queries*.
+* **RWD OTROS ASPECTOS:** Construcción de formularios adaptables mediante la integración de Flexbox y CSS Grid.
+* **PROYECTO FINAL:** Aplicación web adaptable integral con gama en tonos café, gradientes lineales, elementos gráficos y *breakpoints* en 480px y 768px.
+
+**Stack y herramientas**
+
+* HTML5
+* CSS3
+* Flexbox y CSS Grid
+* Diseño web responsivo (*Responsive Web Design*)
+* Git y GitLab
